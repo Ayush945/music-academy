@@ -33,6 +33,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      scroll: {
+        to: {
+          transform: "translate(calc(-50% - 0.5rem))",
+        },
+      },
+      scrollbar: {
+        'hide': {
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none',
+          '&::-webkit-scrollbar': {
+            'display': 'none',
+          },
+        },
+      },
       keyframes:{
         spotlight: {
           "0%": {
