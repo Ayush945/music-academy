@@ -1,5 +1,8 @@
 import FeaturedCourses from '@/components/FeaturedCourses'
+import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
+import MeetInstructors from '@/components/MeetInstructors'
+import UpcomingWebinars from '@/components/UpcomingWebinars'
 import WhyChooseUs from '@/components/WhyChooseUs'
 
 function page() {
@@ -9,6 +12,9 @@ function page() {
       <HeroSection/>
       <FeaturedCourses/>
       <WhyChooseUs/>
+      <UpcomingWebinars/>
+      <MeetInstructors/>
+      <Footer/>
     </main>
   )
 }
